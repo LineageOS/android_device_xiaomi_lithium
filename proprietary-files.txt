@@ -104,5 +104,12 @@ vendor/lib/libmmcamera_s5k3p3_qtech.so
 lib64/hw/fingerprint.fpc.so
 lib/hw/fingerprint.fpc.so
 
+# Graphics firmware
+etc/firmware/a530_zap.b00
+etc/firmware/a530_zap.b01
+etc/firmware/a530_zap.b02
+etc/firmware/a530_zap.elf
+etc/firmware/a530_zap.mdt
+
 # NFC firmware
 vendor/firmware/libpn551_fw.so
