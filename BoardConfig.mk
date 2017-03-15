@@ -30,5 +30,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 # Kernel
 TARGET_KERNEL_CONFIG := lithium_defconfig
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # inherit from the proprietary version
 -include vendor/xiaomi/lithium/BoardConfigVendor.mk
