@@ -6,7 +6,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_lithium
 PRODUCT_DEVICE := lithium
 PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Mi Mix
+PRODUCT_MODEL := MI Mix
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
