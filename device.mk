@@ -15,7 +15,7 @@
 #
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/xiaomi/lithium/lithium-vendor.mk)
+$(call inherit-product, vendor/xiaomi/lithium/lithium-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
