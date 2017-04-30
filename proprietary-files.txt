@@ -8,6 +8,9 @@ etc/acdbdata/Forte/Forte_Headset_cal.acdb
 etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 etc/acdbdata/adsp_avs_config.acdb
 
+# Audio amplifier firmware
+etc/firmware/tfa9891.cnt
+
 # Camera actuators
 vendor/lib/libactuator_dw9763_a8_o-film.so
 vendor/lib/libactuator_dw9763_a8_qtech.so
