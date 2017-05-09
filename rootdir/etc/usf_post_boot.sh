@@ -1,7 +1,9 @@
-# Copyright (c) 2013-2016, The Linux Foundation. All rights reserved.
+#!/system/bin/sh
+# Copyright (c) 2011-2013, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
-# modification, are permitted provided that the following conditions are met:
+# modification, are permitted provided that the following conditions are
+# met:
 #     * Redistributions of source code must retain the above copyright
 #       notice, this list of conditions and the following disclaimer.
 #     * Redistributions in binary form must reproduce the above
@@ -26,22 +28,55 @@
 #
 #
 
-on post-fs-data
-    chown system system /dev/sysmatdrv
-    chmod 0660 /dev/sysmatdrv
+dir0=/data/usf
+pcm_ind_file=$dir0/pcm_inds.txt
+pcm_file=/proc/asound/pcm
 
-    mkdir /data/usf 0700 system system
+tx_rx_patterns=(tx2- rx2-)
+dev_ids=("0" "0")
+cards=("0" "0")
+found_num=0
 
-service usf_proximity /system/bin/usf_proximity
-    class late_start
-    user system
-    group system inet audio
+# Run usf_settings script
+if [ -f /system/etc/usf_settings.sh ]; then
+  /system/bin/sh /system/etc/usf_settings.sh
+fi
 
-service usf-post-boot /system/bin/sh /system/etc/usf_post_boot.sh
-    class late_start
-    user root
-    disabled
-    oneshot
+while read pcm_entry; do
+    for i in 0 1; do
+        echo $pcm_entry
+        id="${pcm_entry##*"${tx_rx_patterns[$i]}"}"
+        case "$pcm_entry" in
+            "$id")
+            ;;
 
-on property:init.svc.bootanim=stopped
-    start usf-post-boot
+            *)
+            cards[$i]=${pcm_entry:0:2}
+            dev_ids[$i]=${pcm_entry:3:2}
+            found_num=$(( $found_num + 1))
+            i=2
+            ;;
+        esac
+
+        case $i in
+            2)
+            break
+            ;;
+        esac
+    done
+
+    case $found_num in
+        2)
+        break
+        ;;
+    esac
+
+done < $pcm_file
+
+echo ${dev_ids[0]}" "${dev_ids[1]}" "${cards[0]}" "${cards[1]}>$pcm_ind_file
+chmod 0644 $pcm_ind_file
+
+# Post-boot start of selected USF based calculators
+for i in $(cat $dir0/auto_start.txt); do
+   start $i
+done
