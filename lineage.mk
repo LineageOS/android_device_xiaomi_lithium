@@ -14,5 +14,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lithium" \
     PRODUCT_NAME="lithium" \
-    BUILD_FINGERPRINT="lithium-user 6.0.1 MXB48T 7.5.4 release-keys" \
-    PRIVATE_BUILD_DESC="Xiaomi/lithium/lithium:6.0.1/MXB48T/7.5.4:user/release-keys"
+    BUILD_FINGERPRINT="lithium-user 6.0.1 MXB48T V8.2.4.0.MAHMIDL release-keys" \
+    PRIVATE_BUILD_DESC="Xiaomi/lithium/lithium:6.0.1/MXB48T/V8.2.4.0.MAHMIDL:user/release-keys"
