@@ -16,6 +16,24 @@
       "revId": "8363df11fd4a7e76d5e12fbbf1b711cd08438e14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_8534ebde",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-05-15T18:14:35Z",
+      "side": 1,
+      "message": "I think most of the manufacturer HALs don\u0027t use the speaker protected codepaths.",
+      "parentUuid": "1a486d77_227acd88",
+      "revId": "8363df11fd4a7e76d5e12fbbf1b711cd08438e14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
