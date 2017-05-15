@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_227acd88",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 14719
+      },
+      "writtenOn": "2017-05-15T11:15:26Z",
+      "side": 1,
+      "message": "Closed source hal doesn\u0027t sets this value.",
+      "revId": "8363df11fd4a7e76d5e12fbbf1b711cd08438e14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
