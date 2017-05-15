@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_c53ae3cc",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-05-15T18:13:54Z",
+      "side": 1,
+      "message": "You could have remapped our version of SND_DEVICE_OUT_HEADPHONES to point to xiaomi\u0027s HIFI_HEADPHONES using the device_ids block.",
+      "revId": "5374868fc075a3034f8d8a3732930943405429d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
