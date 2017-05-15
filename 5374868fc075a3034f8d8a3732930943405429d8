@@ -16,6 +16,24 @@
       "revId": "5374868fc075a3034f8d8a3732930943405429d8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_2553f718",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-05-15T18:16:04Z",
+      "side": 1,
+      "message": "By looking at tinymix from stock hifi paths are unused",
+      "parentUuid": "1a486d77_c53ae3cc",
+      "revId": "5374868fc075a3034f8d8a3732930943405429d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
