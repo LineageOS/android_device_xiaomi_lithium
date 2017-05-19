@@ -95,12 +95,12 @@ etc/camera/ov5675_primax_chromatix.xml
 etc/camera/s5k3p3_qtech_chromatix.xml
 
 # Camera eeproms
-vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so:464315c06d3cd915fb4c0f938aac28115f1ef27e
+vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so
 vendor/lib/libmmcamera_s5k3p3_qtech_eeprom.so
 
 # Camera sensors
-vendor/lib/libmmcamera_ov16880.so|30e496d0fd0d2d7e81d1f4475faa4e8e4de2c99a
-vendor/lib/libmmcamera_ov5675_primax.so|741887ff7a0cc4aaed959a22f0331fba78bb1614
+vendor/lib/libmmcamera_ov16880.so
+vendor/lib/libmmcamera_ov5675_primax.so
 vendor/lib/libmmcamera_s5k3p3_qtech.so
 
 # Display calibration data
@@ -119,7 +119,7 @@ etc/firmware/a530_zap.elf
 etc/firmware/a530_zap.mdt
 
 # NFC firmware
-vendor/firmware/libpn551_fw.so
+vendor/firmware/libpn551_fw.so|4732c4aac8589d1f8aca13b96d2d541fb99babea
 
 # Sensors
 bin/usf_proximity
@@ -156,7 +156,6 @@ vendor/lib64/libusndroute.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib/libproxadapter.so
 vendor/lib/libproxsockadapter.so
-vendor/lib/libqcproximity.so
 vendor/lib/libual.so
 vendor/lib/libualutil.so
 vendor/lib/libusndroute.so
