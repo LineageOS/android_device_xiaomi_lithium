@@ -24,6 +24,6 @@ $(call inherit-product, device/xiaomi/lithium/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := full_lithium
 PRODUCT_DEVICE := lithium
-PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := MI Mix
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := MI MIX
 PRODUCT_MANUFACTURER := Xiaomi
