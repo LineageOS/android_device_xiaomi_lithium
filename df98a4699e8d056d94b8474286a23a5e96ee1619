@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_03a9017b",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-21T16:29:01Z",
+      "side": 1,
+      "message": "All these are missing in the 7.5.15 build.",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 49
+      },
+      "revId": "df98a4699e8d056d94b8474286a23a5e96ee1619",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_e3b705d7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-21T16:29:01Z",
+      "side": 1,
+      "message": "Also missing in the 7.5.15 build.",
+      "range": {
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 45
+      },
+      "revId": "df98a4699e8d056d94b8474286a23a5e96ee1619",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_c3bac9bf",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-21T16:29:01Z",
+      "side": 1,
+      "message": "Also missing in the 7.5.15 build.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 38
+      },
+      "revId": "df98a4699e8d056d94b8474286a23a5e96ee1619",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
