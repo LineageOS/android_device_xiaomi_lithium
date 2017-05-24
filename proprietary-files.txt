@@ -124,6 +124,8 @@ vendor/firmware/libpn551_fw.so
 # Sensors
 bin/usf_proximity
 etc/elliptic_sensor.xml
+etc/sensors/hals.conf
+etc/sensors/sensor_def_qcomdev.conf
 etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg
 etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg
 etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin
@@ -158,3 +160,6 @@ vendor/lib/libqcproximity.so
 vendor/lib/libual.so
 vendor/lib/libualutil.so
 vendor/lib/libusndroute.so
+
+# Thermal
+etc/thermal-engine-8996.conf
