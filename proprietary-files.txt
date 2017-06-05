@@ -103,6 +103,9 @@ vendor/lib/libmmcamera_ov16880.so
 vendor/lib/libmmcamera_ov5675_primax.so
 vendor/lib/libmmcamera_s5k3p3_qtech.so
 
+# Charger
+bin/hvdcp_opti
+
 # Display calibration data
 -etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml
 -etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml
