@@ -30,6 +30,9 @@ AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 # Kernel
 TARGET_KERNEL_CONFIG := lithium_defconfig
 
+# NFC
+NXP_CHIP_TYPE := 3
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
