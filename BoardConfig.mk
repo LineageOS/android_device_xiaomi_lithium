@@ -27,6 +27,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Audio
 AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := lithium_defconfig
 
