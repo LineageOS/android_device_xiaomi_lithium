@@ -124,7 +124,7 @@ vendor/firmware/libpn551_fw.so|4732c4aac8589d1f8aca13b96d2d541fb99babea
 # Sensors
 bin/usf_proximity
 etc/elliptic_sensor.xml
-etc/sensors/hals.conf
+etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg
 etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg
