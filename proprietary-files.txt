@@ -108,8 +108,8 @@ vendor/lib/libmmcamera_s5k3p3_qtech.so
 -etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml
 
 # Fingerprint
-lib64/hw/fingerprint.fpc.so
-lib/hw/fingerprint.fpc.so
+lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.so
+lib/hw/fingerprint.fpc.so:vendor/lib/hw/fingerprint.fpc.so
 
 # Graphics firmware
 etc/firmware/a530_zap.b00:vendor/firmware/a530_zap.b00
