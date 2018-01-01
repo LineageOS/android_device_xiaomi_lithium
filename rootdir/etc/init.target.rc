@@ -45,3 +45,13 @@ service usf-post-boot /system/bin/sh /system/etc/usf_post_boot.sh
 
 on property:init.svc.bootanim=stopped
     start usf-post-boot
+
+service tfa-sh /system/bin/init.tfa.sh /etc/silence_short.wav 15 1
+    class main
+    user system
+    group system
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start tfa-sh
