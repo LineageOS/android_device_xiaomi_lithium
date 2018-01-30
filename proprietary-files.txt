@@ -162,6 +162,3 @@ vendor/lib/libproxsockadapter.so
 vendor/lib/libual.so
 vendor/lib/libualutil.so
 vendor/lib/libusndroute.so
-
-# Thermal
-etc/thermal-engine-8996.conf
