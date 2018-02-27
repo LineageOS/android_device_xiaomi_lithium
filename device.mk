@@ -27,11 +27,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
-# Device config scripts
-PRODUCT_PACKAGES += \
-    usf_post_boot.sh \
-    usf_settings.sh
-
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.target.rc
