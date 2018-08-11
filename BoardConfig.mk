@@ -36,8 +36,5 @@ TARGET_KERNEL_CONFIG := lithium_defconfig
 # NFC
 NXP_CHIP_TYPE := 3
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # inherit from the proprietary version
 -include vendor/xiaomi/lithium/BoardConfigVendor.mk
