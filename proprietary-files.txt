@@ -95,10 +95,10 @@ vendor/lib/libchromatix_s5k3p3_qtech_zsl_preview.so
 vendor/lib/libchromatix_s5k3p3_qtech_zsl_video.so
 
 # Camera configs
-etc/camera/ov16880_chromatix.xml
-etc/camera/ov5675_primax_chromatix.xml
-etc/camera/s5k3p3_qtech_chromatix.xml
-etc/camera/msm8996_camera.xml
+system/etc/camera/ov16880_chromatix.xml:vendor/etc/camera/ov16880_chromatix.xml
+system/etc/camera/ov5675_primax_chromatix.xml:vendor/etc/camera/ov5675_primax_chromatix.xml
+system/etc/camera/s5k3p3_qtech_chromatix.xml:vendor/etc/camera/s5k3p3_qtech_chromatix.xml
+system/etc/camera/msm8996_camera.xml:vendor/etc/camera/msm8996_camera.xml
 
 # Camera eeproms
 vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so
