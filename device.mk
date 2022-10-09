@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2018,2020,2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -52,8 +52,7 @@ PRODUCT_COPY_FILES += \
 
 # TFA calibration
 PRODUCT_PACKAGES += \
-    init.tfa.sh \
-    tinyplay
+    tfa-calib
 
 # Thermal
 PRODUCT_COPY_FILES += \
