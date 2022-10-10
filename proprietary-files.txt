@@ -95,10 +95,10 @@ vendor/lib/libchromatix_s5k3p3_qtech_zsl_preview.so
 vendor/lib/libchromatix_s5k3p3_qtech_zsl_video.so
 
 # Camera configs
+etc/camera/msm8996_camera.xml
 etc/camera/ov16880_chromatix.xml
 etc/camera/ov5675_primax_chromatix.xml
 etc/camera/s5k3p3_qtech_chromatix.xml
-etc/camera/msm8996_camera.xml
 
 # Camera eeproms
 vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so
@@ -127,9 +127,9 @@ vendor/firmware/a530_zap.mdt
 vendor/firmware/libpn551_fw.so:vendor/lib/libpn551_fw.so|4732c4aac8589d1f8aca13b96d2d541fb99babea
 
 # Sensors
-etc/elliptic_sensor.xml
 etc/sensors/sensor_def_qcomdev.conf
-lib64/libultrasound.so
+etc/elliptic_sensor.xml
 lib64/libnotifyaudiohal.so
+lib64/libultrasound.so
 vendor/etc/sensors/hals.conf|fd6193dd8ec39f85948151a83a14690c228121b9
 vendor/lib64/sensors.elliptic.so
