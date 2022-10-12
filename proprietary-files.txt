@@ -12,10 +12,10 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio amplifier calibration sound
-etc/silence_short.wav:vendor/etc/silence_short.wav
+system/etc/silence_short.wav:vendor/etc/silence_short.wav
 
 # Audio amplifier firmware
-etc/firmware/tfa9891.cnt:vendor/firmware/tfa9891.cnt
+system/etc/firmware/tfa9891.cnt:vendor/firmware/tfa9891.cnt
 
 # Camera actuators
 vendor/lib/libactuator_dw9763_a8_o-film.so
@@ -110,11 +110,11 @@ vendor/lib/libmmcamera_ov5675_primax.so
 vendor/lib/libmmcamera_s5k3p3_qtech.so
 
 # Display calibration data
-etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml
-etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml
+system/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml
+system/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml
 
 # Fingerprint
-lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.so|a8e5cb51ed0019fbf2d2b483076c4e5fd0230155
+system/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.so|a8e5cb51ed0019fbf2d2b483076c4e5fd0230155
 
 # Graphics firmware
 vendor/firmware/a530_zap.b00
@@ -127,9 +127,9 @@ vendor/firmware/a530_zap.mdt
 vendor/firmware/libpn551_fw.so:vendor/lib/libpn551_fw.so|4732c4aac8589d1f8aca13b96d2d541fb99babea
 
 # Sensors
-etc/sensors/sensor_def_qcomdev.conf
-etc/elliptic_sensor.xml
-lib64/libnotifyaudiohal.so
-lib64/libultrasound.so
+system/etc/sensors/sensor_def_qcomdev.conf
+system/etc/elliptic_sensor.xml
+system/lib64/libnotifyaudiohal.so
+system/lib64/libultrasound.so
 vendor/etc/sensors/hals.conf|fd6193dd8ec39f85948151a83a14690c228121b9
 vendor/lib64/sensors.elliptic.so
